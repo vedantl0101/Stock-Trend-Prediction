@@ -234,7 +234,7 @@ st.set_page_config(page_title="Stock Trend Prediction", layout="wide")
 st.title('Stock Trend Prediction')
 
 # MongoDB connection
-mongo_client = MongoClient(mongo_uri)
+mongo_client = MongoClient(mongo_uri , tls=True)
 db = mongo_client['stock-trend-prediction']
 collection = db['data']
 
