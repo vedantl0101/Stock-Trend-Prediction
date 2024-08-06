@@ -2,8 +2,8 @@
 .env
 
 # Ignore CSV, JSON, and Excel files related to global stock tickers
-# global_stock_tickers_with_india - Sheet1.csv
-# global_stock_tickers_with_india - Sheet1.json
+global_stock_tickers_with_india - Sheet1.csv
+global_stock_tickers_with_india - Sheet1.json
 # global_stock_tickers_with_india.xlsx
 
 convert.py
