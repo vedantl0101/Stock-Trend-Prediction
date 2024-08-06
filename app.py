@@ -257,6 +257,8 @@ if selected_ticker:
 else:
     st.error("Please enter a valid company name, ticker symbol and date range.")
 
+
+
 # import numpy as np
 # import pandas as pd
 # import matplotlib.pyplot as plt
